@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* -- Font Sizes, Padding, Weight, etc -- */
+h1{
+    font-size: 75px;
+}
+
+h2{
+    font-size: 36px;
+    text-decoration: underline  rgb(0, 174, 255);
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+/* -- Navigation Bar -- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.756%;
+    align-items: center;
+}
+
+.headerLogo{
+    text-decoration: none; 
+    color: white; 
+    padding-top: 10px;
+}
+
+.headerLogo h3:hover{
+    color: rgb(0, 174, 255); 
+    transition: 0.5s;
+}
+
+.linksNav{
+    text-align: right;
+    padding-top: 5px;
+}
+
+.linksNav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+} 
+
+.linksNav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.linksNav ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+/* -- Header -- */
+.headerBar{
+    background-color: rgb(0, 51, 75);
+    width: 100%;
+    height: 100px;
+}
+
+.titleBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+/* -- Header Image --*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 52, 65, 0.7), rgba(0, 52, 65, 0.7)), url('cockpit.jpg') no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* -- Body -- */
+.about{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.projects{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.projectPannels{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectPannelsClass{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 40%;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+
+.projectPannelsText{
+    margin-top: 10px; 
+}
+
+.projectPannelsText h3{
+    text-decoration: underline  rgb(0, 174, 255);
+}
+
+.moreGamesBtn{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 12px 13px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.moreGamesBtn:hover{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 2px solid rgb(0, 174, 255);
+    padding: 12px 13px;
+    background:rgb(0, 174, 255);
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+/** Quotes **/
+.quotes{
+    min-height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 52, 65, 0.7), rgba(0, 52, 65, 0.7)), url('legobg.jpg') no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.quoteBox{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 50vh;
+    height: 35vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.quoteText{
+    margin-top: 4vh;
+}
+/** Contact **/
+.contactForm label{
+    display: block;
+    margin: 10px 0;
+}
+
+.contactForm input, textarea{
+   padding: 7px;
+   width: 20%;
+   outline: none;
+   box-sizing: border-box;
+   border: none;
+   border-bottom: 1px solid rgb(199, 199, 199);
+   resize: none;
+}
+
+.contactForm input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    border-bottom: 1px solid rgb(0, 174, 255);
+ }
