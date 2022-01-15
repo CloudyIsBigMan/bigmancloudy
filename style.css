@@ -166,7 +166,7 @@ nav{
 
 /** Quotes **/
 .quotes{
-    min-height: 90vh;
+    min-height: 80vh;
     width: 100%;
     background: linear-gradient(rgba(0, 52, 65, 0.7), rgba(0, 52, 65, 0.7)), url('soccerbg.jpg') no-repeat fixed;
     background-position: center;
